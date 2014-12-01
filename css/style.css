@@ -12,6 +12,7 @@ img{
 	width: 800px;
 	margin: 0 auto;
 	padding: 1px;
+	border-radius: 5px;
 }
 
 .izq{
@@ -20,10 +21,26 @@ img{
 	padding-left: 2%;
 }
 
+.letraGrande{
+	font-size: 20px;
+}
+
 .der{
 	width: 48%;
 	float: right;
 	padding-right: 2%;
+}
+
+
+.izq>img{
+	width: 100%;
+}
+
+.mapa{
+	padding: 4px 4px 0px 4px;
+	width: 370px;
+	border-radius: 3px;
+	background-color: #FFF;
 }
 
 .columna{
@@ -32,12 +49,20 @@ img{
 	float: left;
 	margin: 3px;
 	padding: 10px;
-	background-color: #EEE;
+	background-color: #FFF;
 	border-radius: 13px;
 }
 
-.columna:hover{
-	background-color: #FFF;
+.columna:hover:first-child{
+	background-color: #AB9DFA;
+}
+
+.columna:hover:nth-child(2){
+	background-color: #FFEC91;
+}
+
+.columna:hover:nth-child(3){
+	background-color: #88FA8F;
 }
 
 .clear{
@@ -46,6 +71,13 @@ img{
 
 .centrado{
 	text-align: center;
+}
+
+.video{
+	width:800px;
+	margin: 0 auto;
+	padding: 50px;
+	margin-top: 400px; 
 }
 
 .justificado{
