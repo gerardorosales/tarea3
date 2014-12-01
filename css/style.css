@@ -1,0 +1,55 @@
+body{
+	background: linear-gradient(#FFF, #CCC);
+}
+
+img{
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.contenedorHorizontal{
+	width: 800px;
+	margin: 0 auto;
+	padding: 1px;
+}
+
+.izq{
+	width: 48%;
+	float: left;
+	padding-left: 2%;
+}
+
+.der{
+	width: 48%;
+	float: right;
+	padding-right: 2%;
+}
+
+.columna{
+	width: 30%;
+	height: 400px;
+	float: left;
+	margin: 3px;
+	padding: 10px;
+	background-color: #EEE;
+	border-radius: 13px;
+}
+
+.columna:hover{
+	background-color: #FFF;
+}
+
+.clear{
+	clear: both;
+}
+
+.centrado{
+	text-align: center;
+}
+
+.justificado{
+	text-align: justify;
+}
+
+/*Leer libro PROGIT*/
